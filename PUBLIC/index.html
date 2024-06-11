@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="balance-container">
+            <h2>Balance: <span id="balance">0</span> USD</h2>
+        </div>
+
+        <div id="deposit-section">
+            <h3>Deposit Funds</h3>
+            <input type="number" id="amount" placeholder="Enter amount to deposit">
+            <button id="deposit-button">Deposit</button>
+        </div>
+
+        <div id="bet-section">
+            <h3>Place Your Bet</h3>
+            <input type="number" id="bet-amount" placeholder="Enter bet amount">
+            <input type="number" id="bet-number" placeholder="Enter number (1-6)">
+            <button id="bet-button">Place Bet</button>
+        </div>
+
+        <div id="withdraw-section">
+            <h3>Withdraw Funds</h3>
+            <input type="number" id="withdraw-amount" placeholder="Enter amount to withdraw">
+            <button id="withdraw-button">Withdraw</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
